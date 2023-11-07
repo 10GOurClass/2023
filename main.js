@@ -50,15 +50,15 @@ function toggleCard(cardId) {
       }
   }
   
-  if (card.style.width === "300px" && card.style.height === "300px") {
+  if (card.style.width === "200px" && card.style.height === "200px") {
       card.style.width = "150px";
       card.style.height = "150px";
       description.style.display = "none";
       name.style.display = "block";
       openCardId = null;     
   } else {
-      card.style.width = "300px";
-      card.style.height = "300px";
+      card.style.width = "200px";
+      card.style.height = "200px";
       description.style.display = "block";
       name.style.display = "none";
       openCardId = cardId;
