@@ -17,6 +17,8 @@
 .line p{
     font-size: 40px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid red;
+    border-radius: 10px 0 10px 0;
 }
 .mainBody{
     width: 100%;
